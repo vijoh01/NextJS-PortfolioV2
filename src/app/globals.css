@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("@fontsource/rhodium-libre/400.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+h1 {
+  font-family: 'Rhodium Libre', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto';
+}
+
+p, label {
+  font-family: 'Calibri light';
+}
+
+.btn-text {
+  font-family: 'Calibri light';
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
