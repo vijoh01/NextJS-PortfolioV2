@@ -107,7 +107,7 @@ const ExamensarbetePage = () => {
       </main>
 
       <footer className="text-center mt-8 text-gray-500">
-        &copy; {new Date().getFullYear()} Convertly.org. All rights reserved.
+        &copy; {new Date().getFullYear()} vijoh.com. All rights reserved.
       </footer>
     </div>
   );
