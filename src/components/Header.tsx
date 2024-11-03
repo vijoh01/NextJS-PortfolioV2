@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         
       </div>
-      <Image className="pointer-events-none w-[200px] sm:w-[300px]" src={me} style={{borderRadius: "43%"}} alt="Vijoh Light Logo" />
+      <Image className="pointer-events-none w-[200px] sm:w-[360px]" src={me} style={{borderRadius: "43%"}} alt="Vijoh Light Logo" />
 
       </div>
       <Image className="pointer-events-none w-full min-w-max inset-0 scale-110 z-10" src={blue_waves_top} alt="Vijoh Light Logo" />
