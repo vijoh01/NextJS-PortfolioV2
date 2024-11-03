@@ -31,7 +31,7 @@ const Privacy = () => {
             <li className='mt-3'>Personal Data: any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.</li>
             <li className='mt-3'>Service: refers to the service provided by SuppleX as described in the relative terms (if available) and on this platform.</li>
             <li className='mt-3'>Third-party service: refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.</li>
-            <li className='mt-3'>Website: SuppleX's site, which can be accessed via this URL: </li>
+            <li className='mt-3'>Website: SuppleX&apos;s site, which can be accessed via this URL: </li>
             <li className='mt-3'>You: a person or entity that is registered with SuppleX to use the Services.</li>
           </ul>
 
@@ -50,7 +50,7 @@ const Privacy = () => {
           <p>By using SuppleX or contacting us directly, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy, you should not engage with our website, or use our services. Continued use of the website, direct engagement with us, or following the posting of changes to this Privacy Policy that do not significantly affect the use or disclosure of your personal information will mean that you accept those changes.</p>
 
           <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Your Consent</h1>
-          <p>We've updated our Privacy Policy to provide you with complete transparency into what is being set when you visit our site and how it's being used. By using our app, registering an account, or making a purchase, you hereby consent to our Privacy Policy and agree to its terms.
+          <p>We&apos;ve updated our Privacy Policy to provide you with complete transparency into what is being set when you visit our site and how it&apos;s being used. By using our app, registering an account, or making a purchase, you hereby consent to our Privacy Policy and agree to its terms.
           </p>
 
           <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Links to Other Websites</h1>
@@ -59,10 +59,10 @@ const Privacy = () => {
           <p>SuppleX uses "Cookies" to identify the areas of our website that you have visited. A Cookie is a small piece of data stored on your computer or mobile device by your web browser. We use Cookies to enhance the performance and functionality of our app but are non-essential to their use. However, without these cookies, certain functionality like videos may become unavailable or you would be required to enter your login details every time you visit the app as we would not be able to remember that you had logged in previously. Most web browsers can be set to disable the use of Cookies. However, if you disable Cookies, you may not be able to access functionality on our website correctly or at all. We never place Personally Identifiable Information in Cookies.</p>
 
           <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Blocking and disabling cookies and similar technologies</h1>
-          <p>Wherever you're located you may also set your browser to block cookies and similar technologies, but this action may block our essential cookies and prevent our website from functioning properly, and you may not be able to fully utilize all of its features and services. You should also be aware that you may also lose some saved information (e.g. saved login details, site preferences) if you block cookies on your browser. Different browsers make different controls available to you. Disabling a cookie or category of cookie does not delete the cookie from your browser, you will need to do this yourself from within your browser, you should visit your browser's help menu for more information.</p>
+          <p>Wherever you&apos;re located you may also set your browser to block cookies and similar technologies, but this action may block our essential cookies and prevent our website from functioning properly, and you may not be able to fully utilize all of its features and services. You should also be aware that you may also lose some saved information (e.g. saved login details, site preferences) if you block cookies on your browser. Different browsers make different controls available to you. Disabling a cookie or category of cookie does not delete the cookie from your browser, you will need to do this yourself from within your browser, you should visit your browser&apos;s help menu for more information.</p>
           <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Payment Details</h1>
           <p>In respect to any credit card or other payment processing details you have provided us, we commit that this confidential information will be stored in the most secure manner possible.</p>
-          <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Kids' Privacy</h1>
+          <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Kids&apos; Privacy</h1>
           <p>We do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
           <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Changes To Our Privacy Policy</h1>
           <p>We may change our Service and policies, and we may need to make changes to this Privacy Policy so that they accurately reflect our Service and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to this Privacy Policy and give you an opportunity to review them before they go into effect. Then, if you continue to use the Service, you will be bound by the updated Privacy Policy. If you do not want to agree to this or any updated Privacy Policy, you can delete your account.</p>
@@ -70,7 +70,7 @@ const Privacy = () => {
           <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Third-Party Services</h1>
           <p>We may display, include or make available third-party content (including data, information, applications and other products services) or provide links to third-party websites or services ("Third- Party Services").</p>
           <p>You acknowledge and agree that SuppleX shall not be responsible for any Third-Party Services, including their accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect thereof. SuppleX does not assume and shall not have any liability or responsibility to you or any other person or entity for any Third-Party Services.</p>
-          <p>Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them entirely at your own risk and subject to such third parties' terms and conditions.</p>
+          <p>Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them entirely at your own risk and subject to such third parties&apos; terms and conditions.</p>
           <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Tracking Technologies</h1>
           <ul><li>Local Storage
             
@@ -80,7 +80,7 @@ const Privacy = () => {
               <p>We may be collecting and using information from you if you are from the European Economic Area (EEA), and in this section of our Privacy Policy we are going to explain exactly how and why is this data collected, and how we maintain this data under protection from being replicated or used in the wrong way.</p>
 
               <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">What is GDPR?</h1>
-              <p>GDPR is an EU-wide privacy and data protection law that regulates how EU residents' data is protected by companies and enhances the control the EU residents have, over their personal data.</p>
+              <p>GDPR is an EU-wide privacy and data protection law that regulates how EU residents&apos; data is protected by companies and enhances the control the EU residents have, over their personal data.</p>
               <p>The GDPR is relevant to any globally operating company and not just the EU-based businesses and EU residents. Our customers’ data is important irrespective of where they are located, which is why we have implemented GDPR controls as our baseline standard for all our operations worldwide.</p>
 
               <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">What is personal data?</h1>
@@ -94,11 +94,11 @@ const Privacy = () => {
               </ul>
 
               <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Why is GDPR important?</h1>
-              <p>GDPR adds some new requirements regarding how companies should protect individuals' personal data that they collect and process. It also raises the stakes for compliance by increasing enforcement and imposing greater fines for breach. Beyond these facts it's simply the right thing to do. At SuppleX we strongly believe that your data privacy is very important and we already have solid security and privacy practices in place that go beyond the requirements of this new regulation.</p>
+              <p>GDPR adds some new requirements regarding how companies should protect individuals&apos; personal data that they collect and process. It also raises the stakes for compliance by increasing enforcement and imposing greater fines for breach. Beyond these facts it&apos;s simply the right thing to do. At SuppleX we strongly believe that your data privacy is very important and we already have solid security and privacy practices in place that go beyond the requirements of this new regulation.</p>
 
-              <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Individual Data Subject's Rights - Data Access, Portability and Deletion</h1>
+              <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Individual Data Subject&apos;s Rights - Data Access, Portability and Deletion</h1>
               <p>We are committed to helping our customers meet the data subject rights requirements of GDPR. SuppleX processes or stores all personal data in fully vetted, DPA compliant vendors. We do store all conversation and personal data for up to 6 years unless your account is deleted. In which case, we dispose of all data in accordance with our Terms of Service and Privacy Policy, but we will not hold it longer than 60 days.</p>
-              <p>We are aware that if you are working with EU customers, you need to be able to provide them with the ability to access, update, retrieve and remove personal data. We got you! We've been set up as self service from the start and have always given you access to your data and your customers data. Our customer support team is here for you to answer any questions you might have about working with the API.</p>
+              <p>We are aware that if you are working with EU customers, you need to be able to provide them with the ability to access, update, retrieve and remove personal data. We got you! We&apos;ve been set up as self service from the start and have always given you access to your data and your customers data. Our customer support team is here for you to answer any questions you might have about working with the API.</p>
               <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">California Residents</h1>
               <p>The California Consumer Privacy Act (CCPA) requires us to disclose categories of Personal Information we collect and how we use it, the categories of sources from whom we collect Personal Information, and the third parties with whom we share it, which we have explained above.</p>
               <p>We are also required to communicate information about rights California residents have under California law. You may exercise the following rights:</p>
@@ -106,7 +106,7 @@ const Privacy = () => {
               <li className='mt-5'>Right to Know and Access. You may submit a verifiable request for information regarding the: (1) categories of Personal Information we collect, use, or share; (2) purposes for which categories of Personal Information are collected or used by us; (3) categories of sources from which we collect Personal Information; and (4) specific pieces of Personal Information we have collected about you.</li>
               <li className='mt-5'>Right to Equal Service. We will not discriminate against you if you exercise your privacy rights.</li>
               <li className='mt-5'>Right to Delete. You may submit a verifiable request to close your account and we will delete Personal Information about you that we have collected.</li>
-              <li className='mt-5'>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</li>
+              <li className='mt-5'>Request that a business that sells a consumer's personal data, not sell the consumer&apos;s personal data.</li>
               </ul>
               <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
               <p>We do not sell the Personal Information of our users.</p>
@@ -118,13 +118,13 @@ const Privacy = () => {
               <li className='mt-5'>Right to Know and Access. You may submit a verifiable request for information regarding the: (1) categories of Personal Information we collect, use, or share; (2) purposes for which categories of Personal Information are collected or used by us; (3) categories of sources from which we collect Personal Information; and (4) specific pieces of Personal Information we have collected about you.</li>
               <li className='mt-5'>Right to Equal Service. We will not discriminate against you if you exercise your privacy rights.</li>
               <li className='mt-5'>Right to Delete. You may submit a verifiable request to close your account and we will delete Personal Information about you that we have collected.</li>
-              <li className='mt-5'>Right to request that a business that sells a consumer's personal data, not sell the consumer's personal data.</li>
+              <li className='mt-5'>Right to request that a business that sells a consumer&apos;s personal data, not sell the consumer&apos;s personal data.</li>
               </ul>
               <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
               <p>We do not sell the Personal Information of our users.</p>
               <p>For more information about these rights, please contact us.</p>
               <h1 className="w-full md:mt-0 text-2xl sm:text-2xl text-primary-dark dark:text-primary-light pt-10 pb-2">Contact Us</h1>
-              <p>Don't hesitate to contact us if you have any questions.</p>
+              <p>Don&apos;t hesitate to contact us if you have any questions.</p>
               <ul className='mt-5'><li>Via Email:  <a href="/cdn-cgi/l/email-protection" data-cfemail="90f3fffee4f1f3e4d0e6f9fafff8bef3fffd">contact@vijoh.com</a></li><li>Via Phone Number:  +4676-164 61 20</li><li>Via this Link:  https://vijoh.com</li>
               </ul>
 
