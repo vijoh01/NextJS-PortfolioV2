@@ -3,20 +3,59 @@ import React from "react";
 import Image from 'next/image';
 import blue_waves_bottom from "@/imgs/blue_waves_bottom.svg"
 import { PiLayout } from "react-icons/pi";
+import weather from '@/imgs/weather.png'
+import msg from '@/imgs/msgboard.png'
+import app from '@/imgs/SuppleX.png'
+import tamagotchi from '@/imgs/tamagotchi.png'
+
+const projects = [
+    {
+        name: 'SuppleX',
+        description: 'Mobile App - Track Your Vitamins & Minerals. Availible on Google Play Store & App Store.',
+        file: app,
+        link: '/SuppleX/about'
+    },
+    {
+        name: 'MsgBoard',
+        description: 'Social media app, register and post messages that can be seen by anyone.',
+        file: msg,
+        link: 'https://vijoh01.github.io/fe22-vh-slutprojekt-grupp-6/'
+    },
+    {
+        name: 'Tamagotchi',
+        description: 'Create multiple tamagotchis and take care of them.',
+        file: tamagotchi,
+        link: 'https://vijoh01.github.io/FE22-js2-mp2-Viktor-Johansson/'
+    },
+    {
+        name: 'Weather',
+        description: 'School group project using weather api that allows you to see the weather anywhere.',
+        file: weather,
+        link: 'https://ignacio-ci.github.io/fe22-vh-projekt1-grupp-5/'
+    },
+];
 
 const About = () => {
     return (
-        <div className="w-full bg-blue-100 flex flex-col items-center justify-between h-[35rem] md:h-[35rem]" id="about">
-            <div className="flex flex-col md:flex-row md:justify-evenly items-center w-full h-full  md:pb-10">
-                <div className="flex flex-col justify-center max-w-[17rem] sm:max-w-[27rem] h-full">
-                    <h2 className="text-4xl text-primary-dark">Innovative Solutions</h2>
-                    <p className="mt-4 text-primary-dark text-lg">I have dedicated myself to web development with a
-                        passion for programming and several years of experience
-                        in the field. My creativity and analytical thinking have been
-                        crucial in creating innovative solutions. I thrive in team
-                        environments and always have an eye for detail.</p>
+          <div className="w-full bg-blue-100 flex flex-col items-center justify-between pt-5" id="projects">
+            <div className="flex items-center flex-col text-primary-dark max-w-[100%] sm:max-w-[90%] pb-20 md:pb-20">
+                <h2 className="text-4xl w-full text-center">Projects</h2>
+
+                <div className='flex w-full overflow-x-scroll scroll-py-20 mt-10 rounded-md overflow-hidden bg-scroll will-change-scroll'>
+                    {projects.map((project, index) => (
+                        <div key={index} className='relative h-[25rem] px-1 '>
+                            <Image className="h-full object-cover w-[16rem] md:w-[23rem] rounded-md" src={project.file} alt=""></Image>
+                            <div className="w-[16rem] md:w-[23rem] "></div>
+                            <div className='absolute top-0 left-0 flex flex-col items-center justify-end h-full w-full '>
+                                <div className="h-[50%] bg-[#ffffff98] hover:bg-[#ffffffc5] flex flex-col justify-between items-center w-[16rem] md:w-[23rem] px-2 py-5 rounded-b-md">
+                                    <h1 className="font-bold">{project.name}</h1>
+                                    <p className="text-center w-[90%]">{project.description}</p>
+                                    <a href={project.link} className="mt-5 px-10 py-2 bg-primary-dark text-primary-light cursor-pointer rounded-md">Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
-                <PiLayout size={200} className={"hidden md:flex fill-primary-dark"} />
             </div>
             <Image className="pointer-events-none w-full min-w-max inset-0 scale-110" loading="lazy" src={blue_waves_bottom} alt="Vijoh Light Logo" />
 

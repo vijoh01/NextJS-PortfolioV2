@@ -9,14 +9,18 @@ import { AiFillHtml5, AiFillGithub, AiOutlineFundProjectionScreen } from 'react-
 import { BsFillHddNetworkFill } from 'react-icons/bs'
 import { TiCss3 } from 'react-icons/ti'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { SiTypescript, SiJavascript, SiMaterialdesignicons, SiExpress } from 'react-icons/si'
+import { SiTypescript, SiJavascript, SiMaterialdesignicons, SiExpress, SiJira } from 'react-icons/si'
 import { PiPaintBrush } from "react-icons/pi";
 
 const Knowledge = () => {
 
     const languages = [
         {
-            name: 'React',
+            name: 'ReactJS',
+            icon: <DiReact />,
+        },
+        {
+            name: 'React Native',
             icon: <DiReact />,
         },
         {
@@ -75,14 +79,22 @@ const Knowledge = () => {
             name: 'REST API',
             icon: <BsFillHddNetworkFill />,
         },
+        {
+            name: 'Linux',
+            icon: <BsFillHddNetworkFill />,
+        },
+        {
+            name: 'Jira',
+            icon: <SiJira />,
+        },
     ];
 
 
     return (
-        <div className="w-full bg-primary-dark flex flex-col items-center justify-between pt-20 md:pt-10" id="knowledge">
+        <div className="w-full bg-primary-dark flex flex-col items-center justify-between pt-10 md:pt-10" id="knowledge">
             <div className="flex items-center flex-col text-primary-light max-w-[17rem] sm:max-w-[27rem] pb-20 md:pb-10">
                 <h2 className="text-4xl w-full">Knowledge</h2>
-                <p className="mt-4 text-lg">I am a fast learner who always seeks to improve and expand my knowledge. With proficiency in programming languages and a diverse skill set, I continuously strive to learn more and enhance my abilities.</p>
+                <p className="mt-4 text-lg w-full">Programming languages I know</p>
 
                 <div className='flex flex-wrap w-full justify-around pointer-events-none mt-5'>
                     {languages.map((lang, index) => (

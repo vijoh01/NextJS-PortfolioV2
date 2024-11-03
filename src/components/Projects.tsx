@@ -6,12 +6,19 @@ import white_waves from "@/imgs/white_waves.svg"
 
 import weather from '@/imgs/weather.png'
 import msg from '@/imgs/msgboard.png'
+import app from '@/imgs/SuppleX.png'
 import tamagotchi from '@/imgs/tamagotchi.png'
 
 
 const Projects = () => {
 
     const projects = [
+        {
+            name: 'SuppleX',
+            description: 'Mobile App - Track Your Vitamins & Minerals. Availible on Google Play Store & App Store.',
+            file: app,
+            link: 'https://vijoh01.github.io/fe22-vh-slutprojekt-grupp-6/'
+        },
         {
             name: 'MsgBoard',
             description: 'Social media app, register and post messages that can be seen by anyone.',
@@ -44,9 +51,9 @@ const Projects = () => {
                             <Image className="h-full object-cover w-[16rem] md:w-[23rem] rounded-md" src={project.file} alt=""></Image>
                             <div className="w-[16rem] md:w-[23rem] "></div>
                             <div className='absolute top-0 left-0 flex flex-col items-center justify-end h-full w-full '>
-                                <div className="h-[50%] bg-[#ffffffc5] flex flex-col justify-between items-center w-[16rem] md:w-[23rem] px-2 py-5 rounded-b-md">
+                                <div className="h-[50%] bg-[#ffffff98] hover:bg-[#ffffffc5] flex flex-col justify-between items-center w-[16rem] md:w-[23rem] px-2 py-5 rounded-b-md">
                                     <h1 className="font-bold">{project.name}</h1>
-                                    <p className="text-center w-full">{project.description}</p>
+                                    <p className="text-center w-[90%]">{project.description}</p>
                                     <a href={project.link} className="mt-5 px-10 py-2 bg-primary-dark text-primary-light cursor-pointer rounded-md">Visit</a>
                                 </div>
                             </div>
