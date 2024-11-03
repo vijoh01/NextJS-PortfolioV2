@@ -9,9 +9,8 @@ const Header = () => {
   return (
     <div className="w-full bg-primary-light dark:bg-primary-dark flex flex-col items-center justify-between overflow-hidden h-[55rem]">
       <div></div>
-        <div className="flex items-center md:justify-evenly md:max-w-[60rem] flex-col md:flex-row w-full">
-      <Image className="pointer-events-none w-[200px] sm:w-[340px]" src={me} style={{borderRadius: "43%"}} alt="Vijoh Light Logo" />
-      <div className="mt-10 md:mt-10 max-w-[17rem] sm:max-w-[27rem] sm:ml-10">
+        <div className="flex items-center md:justify-evenly md:max-w-[60rem] flex-col-reverse md:flex-row w-full">
+      <div className="mt-10 md:mt-10 max-w-[17rem] sm:max-w-[27rem] sm:mr-0 md:mr-24">
         <h1 className="w-full md:mt-0 text-3xl sm:text-5xl text-primary-dark dark:text-primary-light">Code and Design, I Make Ideas Real.</h1>
         <p className="mt-5 mb-5 text-primary-dark dark:text-primary-light">Discover my experience through my latest projects.</p>
         <div className="flex items-center mb-10">
@@ -20,6 +19,8 @@ const Header = () => {
         </div>
         
       </div>
+      <Image className="pointer-events-none w-[200px] sm:w-[300px]" src={me} style={{borderRadius: "43%"}} alt="Vijoh Light Logo" />
+
       </div>
       <Image className="pointer-events-none w-full min-w-max inset-0 scale-110 z-10" src={blue_waves_top} alt="Vijoh Light Logo" />
     </div>
