@@ -106,7 +106,7 @@ const Privacy = () => {
               <li className='mt-5'>Right to Know and Access. You may submit a verifiable request for information regarding the: (1) categories of Personal Information we collect, use, or share; (2) purposes for which categories of Personal Information are collected or used by us; (3) categories of sources from which we collect Personal Information; and (4) specific pieces of Personal Information we have collected about you.</li>
               <li className='mt-5'>Right to Equal Service. We will not discriminate against you if you exercise your privacy rights.</li>
               <li className='mt-5'>Right to Delete. You may submit a verifiable request to close your account and we will delete Personal Information about you that we have collected.</li>
-              <li className='mt-5'>Request that a business that sells a consumer's personal data, not sell the consumer&apos;s personal data.</li>
+              <li className='mt-5'>Request that a business that sells a consumer&apos;s personal data, not sell the consumer&apos;s personal data.</li>
               </ul>
               <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
               <p>We do not sell the Personal Information of our users.</p>

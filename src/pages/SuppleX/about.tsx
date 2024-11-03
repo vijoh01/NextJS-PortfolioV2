@@ -18,7 +18,7 @@ const Header = () => {
 
         <p className="mt-5 mb-16 text-primary-dark dark:text-primary-light">By focusing on vitamin intake from supplements, Supple raises awareness of nutritional needs and reduces the risk of vitamin deficiencies. The app provides tools for users to reach their nutritional goals and improve their health over time. Rather than offering food recommendations, Supple supports users in maintaining their supplement regimen as a valuable addition to their diet.
 
-Supple is user-friendly and engaging, motivating users to actively track their supplement intake. By making information easily accessible and tailored to each user's needs, the app strives to build a solid foundation for a healthier lifestyle. </p>
+Supple is user-friendly and engaging, motivating users to actively track their supplement intake. By making information easily accessible and tailored to each user&apos;s needs, the app strives to build a solid foundation for a healthier lifestyle. </p>
         <div className="flex flex-wrap items-center mb-10">
         <a className="flex justify-between items-center bg-primary-dark text-primary-light dark:bg-primary-light dark:text-primary-dark py-2 px-3 rounded-md btn-text font-bold" download>Appstore<PiArrowSquareOutThin className="ml-2 fill-primary-light size-4 dark:fill-primary-dark"/></a>
         <a className="flex justify-between items-center bg-primary-dark text-primary-light dark:bg-primary-light ml-2 sm:ml-5 dark:text-primary-dark py-2 px-3 rounded-md btn-text font-bold" download>Play Store<PiArrowSquareOutThin className="ml-2 fill-primary-light size-4 dark:fill-primary-dark"/></a>
