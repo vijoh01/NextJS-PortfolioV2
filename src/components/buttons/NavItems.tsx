@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import React, { useState } from "react";
 
 const NavItems = ({dark, iconSize} : any) => {
@@ -24,7 +25,7 @@ const NavItems = ({dark, iconSize} : any) => {
         <button onClick={() => handleClick('knowledge')} className={`text-primary-dark dark:text-primary-light`}>Knowledge</button>
         <button onClick={() => handleClick('projects')} className={`text-primary-dark dark:text-primary-light`}>Projects</button>
         <button onClick={() => handleClick('contact')} className={`text-primary-dark dark:text-primary-light`}>Contact</button>
-        <a className={`text-primary-dark dark:text-primary-light`} href="/SuppleX/about">SuppleX</a>
+        <Link className={`text-primary-dark dark:text-primary-light`} href="/SuppleX/about">SuppleX</a>
     </div>
   );
 };
