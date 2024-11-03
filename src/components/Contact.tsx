@@ -64,14 +64,14 @@ const Contact = () => {
           
                 <form className='flex flex-col w-full sm:w-[40rem] px-5 mb-20'>
                 <h1 className="text-4xl w-full">Connect With Me</h1>
-                <p className="my-4 text-lg mb-10">Whether you have a project in mind, a question to ask, or just want to say hi, I'm all ears (virtually speaking, of course).</p>
+                <p className="my-4 text-lg mb-10">Whether you have a project in mind, a question to ask, or just want to say hi, I&apos;m all ears (virtually speaking, of course).</p>
                     <div className="flex w-full flex-col sm:flex-row items-center justify-between">
                         <div className="flex flex-col sm:mr-2 w-full">
-                            <label className='' htmlFor="name">Name</label>
+                            <label htmlFor="name">Name</label>
                             <input type="text" name="name" id="name" className='px-1 py-1 text-primary-dark border border-primary-dark border-opacity-20' value={values.name} onChange={handleChange} required />
                         </div>
                         <div className="flex flex-col w-full">
-                            <label className='' htmlFor="email">Email</label>
+                            <label htmlFor="email">Email</label>
                             <input type="email" name="email" id="email" className='px-1 py-1 text-primary-dark border border-primary-dark border-opacity-20' value={values.email} onChange={handleChange} required />
                         </div>
                     </div>
