@@ -2,8 +2,8 @@ import React, { useRef, useState, useEffect } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, RoundedBox } from '@react-three/drei';
 
-function Cube({ position, color }) {
-  const ref = useRef();
+function Cube({ color }) {
+  const ref:any = useRef();
 
   // Animation loop for cube rotation
   useFrame(() => {
@@ -13,7 +13,7 @@ function Cube({ position, color }) {
   });
 
   return (
-    <mesh ref={ref} position={position}>
+    <mesh ref={ref}>
       {/* Using RoundedBox from @react-three/drei for rounded corners */}
       <RoundedBox args={[1, 1, 1]} radius={0.2} smoothness={4}>
         <meshStandardMaterial color={color} />
@@ -23,7 +23,7 @@ function Cube({ position, color }) {
 }
 
 const AnimatedBackground = ({ cubeCount = 1 }) => {
-  const [cubes, setCubes] = useState([]);
+  const [cubes, setCubes]:any = useState([]);
 
   useEffect(() => {
     const generatedCubes = [];
