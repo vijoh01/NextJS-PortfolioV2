@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, RoundedBox } from '@react-three/drei';
 
-function Cube({ color }) {
+function Cube({ color }: any) {
   const ref:any = useRef();
 
   // Animation loop for cube rotation
