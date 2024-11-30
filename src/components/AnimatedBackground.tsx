@@ -2,8 +2,8 @@ import React, { useRef, useState, useEffect } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, RoundedBox } from '@react-three/drei';
 
-function Cube({ color }: any) {
-  const ref:any = useRef();
+function Cube({ position, color }: any) {
+  const ref = useRef<any>();
 
   // Animation loop for cube rotation
   useFrame(() => {
@@ -13,7 +13,7 @@ function Cube({ color }: any) {
   });
 
   return (
-    <mesh ref={ref}>
+    <mesh ref={ref} position={position}>
       {/* Using RoundedBox from @react-three/drei for rounded corners */}
       <RoundedBox args={[1, 1, 1]} radius={0.2} smoothness={4}>
         <meshStandardMaterial color={color} />
@@ -23,12 +23,12 @@ function Cube({ color }: any) {
 }
 
 const AnimatedBackground = ({ cubeCount = 1 }) => {
-  const [cubes, setCubes]:any = useState([]);
+  const [cubes, setCubes] = useState<any[]>([]);
 
   useEffect(() => {
-    const generatedCubes = [];
-    const minDistance = 8; // Minimum distance between cubes
-    const positions = [];
+    const generatedCubes: any[] = [];
+    const minDistance = 2; // Minimum distance between cubes
+    const positions: any[] = [];
 
     for (let i = 0; i < cubeCount; i++) {
       let x, y, z, validPosition;
@@ -61,7 +61,7 @@ const AnimatedBackground = ({ cubeCount = 1 }) => {
 
       if (validPosition) {
         positions.push([x, y, z]); // Save valid position
-        const color = `gray`; // Random color
+        const color = `darkgray`; // Static color for simplicity
         generatedCubes.push(<Cube key={i} position={[x, y, z]} color={color} />);
       }
     }
@@ -75,7 +75,7 @@ const AnimatedBackground = ({ cubeCount = 1 }) => {
       className="bg-primary-light dark:bg-primary-dark"
     >
       {/* Add ambient light to illuminate the scene */}
-      <ambientLight intensity={1} />
+      <ambientLight intensity={0.25} />
       
       {/* Add a point light to simulate lighting from the right */}
       <pointLight position={[5, 5, 5]} intensity={1} color="#ffffff" />
