@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import Image from 'next/image';
-import me from '@/imgs/chill.jpg'
+import me from /*'@/imgs/chill.jpg'*/'@/imgs/me_bg.png'
 import blue_waves_top from "@/imgs/blue_waves_top.svg"
 import { PiArrowSquareOutThin } from "react-icons/pi";
 import { Canvas } from '@react-three/fiber';
@@ -22,7 +22,7 @@ const Header = () => {
         </div>
         <AnimatedBackground cubeCount={100} />
       </div>
-      <Image className="pointer-events-none w-[200px] sm:w-[400px]" src={me} style={{borderRadius: "100%"}} alt="Vijoh Light Logo" />
+      <Image className="pointer-events-none w-[200px] sm:w-[390px]" src={me} style={{borderRadius: "100%"}} alt="Vijoh Light Logo" />
 
       </div>
       <Image className="pointer-events-none w-full min-w-max inset-0 scale-110 z-10" src={blue_waves_top} alt="Vijoh Light Logo" />
