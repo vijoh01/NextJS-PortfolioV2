@@ -7,8 +7,8 @@ function Cube({ position, color }: any) {
 
   // Animation loop for cube rotation
   useFrame(() => {
-    ref.current.rotation.x += 0.01;
-    ref.current.rotation.y += 0.01;
+    ref.current.rotation.x += 0.003;
+    ref.current.rotation.y += 0.003;
     ref.current.position.z = Math.sin(ref.current.rotation.x) * 2;
   });
 
